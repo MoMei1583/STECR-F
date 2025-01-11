@@ -1,4 +1,4 @@
-**STECR-F:** A lightweight spatio-temporal classification framework with Entropy-based Change Resistance Filter.
+# **STECR-F:** A lightweight spatio-temporal classification framework with Entropy-based Change Resistance Filter.
 
 The STECR-F algorithm integrates the concept of Spatiotemporal Entropy (STE) and, by applying weighted spatiotemporal neighborhood information, suppresses uncertainty in the classification process. It effectively enhances the spatiotemporal consistency of the classification results, particularly in high-variance regions, and reduces classification instability caused by spatiotemporal fluctuations.
 
@@ -18,16 +18,16 @@ We applied STECR-F to the two sizes of datasets with STE thresholds set to 0.25,
 Dataset 1: data/PITSCM  316 x 186
 Dataset 2: data/LULC  19,252 x 24,496
 
-1. The first dataset has a dimension of 316 x 186 and the execution times for different STE thresholds are as follows:
+## 1. The first dataset has a dimension of 316 x 186 and the execution times for different STE thresholds are as follows:
 
-(STE threshold: 0.25)  calculate_STE elapsed time: 0.0165 s; Weighted convolution (apply_weighted_convolution) elapsed time: 0.0101 s
-(STE threshold: 0.50)  calculate_STE elapsed time: 0.0152 s; Weighted convolution (apply_weighted_convolution) elapsed time: 0.0091 s
-(STE threshold: 0.75)  calculate_STE elapsed time: 0.0169 s; Weighted convolution (apply_weighted_convolution) elapsed time: 0.0094 s
-(STE threshold: 1.00)  calculate_STE elapsed time: 0.0161 s; Weighted convolution (apply_weighted_convolution) elapsed time: 0.0091 s
+* (STE threshold: 0.25)  calculate_STE elapsed time: 0.0165 s; Weighted convolution (apply_weighted_convolution) elapsed time: 0.0101 s
+* (STE threshold: 0.50)  calculate_STE elapsed time: 0.0152 s; Weighted convolution (apply_weighted_convolution) elapsed time: 0.0091 s
+* (STE threshold: 0.75)  calculate_STE elapsed time: 0.0169 s; Weighted convolution (apply_weighted_convolution) elapsed time: 0.0094 s
+* (STE threshold: 1.00)  calculate_STE elapsed time: 0.0161 s; Weighted convolution (apply_weighted_convolution) elapsed time: 0.0091 s
 
-2. The second dataset has a dimension of 19,252 x 24,496 and the execution times for different STE thresholds are as follows:
+## 2. The second dataset has a dimension of 19,252 x 24,496 and the execution times for different STE thresholds are as follows:
 
-(STE threshold: 0.25)  calculate_STE elapsed time: 221.1300 s; Weighted convolution (apply_weighted_convolution) elapsed time: 184.2178 seconds
-(STE threshold: 0.50)  calculate_STE elapsed time: 210.4478 s; Weighted convolution (apply_weighted_convolution) elapsed time: 108.9728 seconds
-(STE threshold: 0.75)  calculate_STE elapsed time: 195.9130 s; Weighted convolution (apply_weighted_convolution) elapsed time: 105.6086 seconds
-(STE threshold: 1.00)  calculate_STE elapsed time: 205.9109 s; Weighted convolution (apply_weighted_convolution) elapsed time: 122.5730 seconds
+* (STE threshold: 0.25)  calculate_STE elapsed time: 221.1300 s; Weighted convolution (apply_weighted_convolution) elapsed time: 184.2178 seconds
+* (STE threshold: 0.50)  calculate_STE elapsed time: 210.4478 s; Weighted convolution (apply_weighted_convolution) elapsed time: 108.9728 seconds
+* (STE threshold: 0.75)  calculate_STE elapsed time: 195.9130 s; Weighted convolution (apply_weighted_convolution) elapsed time: 105.6086 seconds
+* (STE threshold: 1.00)  calculate_STE elapsed time: 205.9109 s; Weighted convolution (apply_weighted_convolution) elapsed time: 122.5730 seconds
