@@ -20,28 +20,22 @@ Dataset 2: data/LULC  19,252 x 24,496
 
 1. The first dataset has a dimension of 316 x 186 and the execution times for different STE thresholds are as follows:
 
-calculate_STE elapsed time: 0.0165 s  (STE threshold: 0.25)
+---calculate_STE elapsed time: 0.0165 s  (STE threshold: 0.25)
 Weighted convolution (apply_weighted_convolution) elapsed time: 0.0101 s
-//////////////////////////////////////////////////////////////
-calculate_STE elapsed time: 0.0152 s  (STE threshold: 0.50)
+---calculate_STE elapsed time: 0.0152 s  (STE threshold: 0.50)
 Weighted convolution (apply_weighted_convolution) elapsed time: 0.0091 s
-//////////////////////////////////////////////////////////////
-calculate_STE elapsed time: 0.0169 s  (STE threshold: 0.75)
+---calculate_STE elapsed time: 0.0169 s  (STE threshold: 0.75)
 Weighted convolution (apply_weighted_convolution) elapsed time: 0.0094 s
-//////////////////////////////////////////////////////////////
-calculate_STE elapsed time: 0.0161 s  (STE threshold: 1.0)
+---calculate_STE elapsed time: 0.0161 s  (STE threshold: 1.0)
 Weighted convolution (apply_weighted_convolution) elapsed time: 0.0091 s
 
 2. The second dataset has a dimension of 19,252 x 24,496 and the execution times for different STE thresholds are as follows:
 
-calculate_STE elapsed time: 221.1300 s  (STE threshold: 0.25)
+---calculate_STE elapsed time: 221.1300 s  (STE threshold: 0.25)
 Weighted convolution (apply_weighted_convolution) elapsed time: 184.2178 seconds
-////////////////////////////////////////////////////////////////////////////////////////////
-calculate_STE elapsed time: 210.4478 s (STE threshold: 0.50)
+---calculate_STE elapsed time: 210.4478 s (STE threshold: 0.50)
 Weighted convolution (apply_weighted_convolution) elapsed time: 108.9728 seconds
-////////////////////////////////////////////////////////////////////////////////////////////
-calculate_STE elapsed time: 195.9130 s  (STE threshold: 0.75)
+---calculate_STE elapsed time: 195.9130 s  (STE threshold: 0.75)
 Weighted convolution (apply_weighted_convolution) elapsed time: 105.6086 seconds
-////////////////////////////////////////////////////////////////////////////////////////////
-calculate_STE elapsed time: 205.9109 s   (STE threshold: 1.0)
+---calculate_STE elapsed time: 205.9109 s   (STE threshold: 1.0)
 Weighted convolution (apply_weighted_convolution) elapsed time: 122.5730 seconds
